@@ -67,9 +67,16 @@
 }
 
 .logo {
+  align-items: center;
+  column-gap: map-get($indents, exmd);
+  display: flex;
+
   &__img {
-    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../icons/logo.svg");
     height: 44px;
+    width: 165px;
   }
 }
 
@@ -124,3 +131,10 @@
   }
 }
 
+.mobile-menu-button {
+  align-items: center;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  width: 32px;
+}

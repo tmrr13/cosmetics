@@ -22,20 +22,22 @@ button {
 
 .social {
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   column-gap: map-get($indents, exmd);
   display: flex;
+
+  .social__telegram {
+    background-image: url("../icons/telegram.svg");
+  }
+
+  .social__instagram {
+    background-image: url("../icons/instagram.svg");
+  }
 }
 
 .icon {
   display: block;
   height: 100%;
   width: 100%;
-}
-
-.mobile-menu-button {
-  align-items: center;
-  display: flex;
-  height: 15px;
-  justify-content: center;
-  width: 32px;
 }

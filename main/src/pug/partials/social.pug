@@ -12,8 +12,6 @@
 div.social
     mixin icon(name, url)
       a(href=url class='social__' + name)
-          svg(class='icon' id=name)
-              use(xlink:href='/assets/icons/' + name + '.svg#' + name)
     each icon in icons
         +icon(icon.name, icon.url)
 
