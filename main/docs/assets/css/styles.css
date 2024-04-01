@@ -475,6 +475,11 @@ a {
   height: 146px;
   padding: 20px 24px 0;
 }
+@media (min-width: 769px) {
+  .footer {
+    padding: 20px 48px 0;
+  }
+}
 .footer__contacts {
   display: -webkit-box;
   display: -ms-flexbox;

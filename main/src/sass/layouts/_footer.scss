@@ -6,6 +6,10 @@
   height: $footer;
   padding: map-get($indents, lg) map-get($indents, lgmd) 0;
 
+  @include desktop() {
+    padding: map-get($indents, lg) map-get($indents, lgmd) * 2 0;
+  }
+
   &__contacts {
     display: flex;
     flex-direction: column;
