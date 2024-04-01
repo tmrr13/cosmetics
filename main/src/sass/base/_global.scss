@@ -24,7 +24,6 @@ button {
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  column-gap: map-get($indents, exmd);
   display: flex;
 
   .social__telegram {

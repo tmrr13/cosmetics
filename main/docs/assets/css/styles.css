@@ -168,9 +168,6 @@ button {
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-column-gap: 16px;
-  -moz-column-gap: 16px;
-  column-gap: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,14 +185,12 @@ button {
   width: 100%;
 }
 
-/* 20px */
-/* 12px */
-/* 10px */
+/* 16px */
+/* 14px */
 /*  $Leading (line-height)
     ================================================== */
 /* 16px */
 /* 20px */
-/* 24px */
 .slider .slider__item--1 {
   background-image: url("../images/slide-1.png");
 }
@@ -315,8 +310,12 @@ button {
   width: 24px;
   z-index: 20;
 }
-.header .social__telegram,
-.header .social__instagram {
+.header .social {
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
+}
+.header .social__telegram, .header .social__instagram {
   height: 40px;
   width: 40px;
 }
@@ -444,10 +443,14 @@ button {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 12px;
 }
-.footer .social__telegram,
-.footer .social__instagram {
+.footer .social {
+  -webkit-column-gap: 12px;
+  -moz-column-gap: 12px;
+  column-gap: 12px;
+}
+.footer .social__telegram, .footer .social__instagram {
   height: 28px;
   width: 28px;
 }
@@ -460,7 +463,13 @@ button {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 20px;
+}
+.footer-contacts-block__text {
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1rem;
 }
 
 .main {

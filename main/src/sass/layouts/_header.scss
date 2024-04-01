@@ -58,11 +58,14 @@
       z-index: 20;
     }
   }
+  .social {
+    column-gap: map-get($indents, exmd);
 
-  .social__telegram,
-  .social__instagram {
-    height: 40px;
-    width: 40px;
+    &__telegram,
+    &__instagram {
+      height: 40px;
+      width: 40px;
+    }
   }
 }
 

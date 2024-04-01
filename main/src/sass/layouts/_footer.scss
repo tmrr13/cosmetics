@@ -12,18 +12,27 @@
   &__contacts {
     display: flex;
     flex-direction: column;
-    row-gap: map-get($indents, sm);
+    row-gap: map-get($indents, md);
   }
 
-  .social__telegram,
-  .social__instagram {
-    height: 28px;
-    width: 28px;
+  .social {
+    column-gap: map-get($indents, md);
+
+    &__telegram,
+    &__instagram {
+      height: 28px;
+      width: 28px;
+    }
   }
 }
 
 .footer-contacts-block {
   display: flex;
   flex-direction: column;
-  row-gap: map-get($indents, exmd);
+  row-gap: map-get($indents, lg);
+
+  &__text {
+    color: $ink-black;
+    @include font-size-minor();
+  }
 }
