@@ -1,0 +1,18 @@
+// Import font face
+@import "base/font-face";
+
+// Import base styles
+@import "base/variables";
+@import "base/mixins";
+@import "base/global";
+@import "base/typography";
+
+// Import components styles
+@import "components/slider";
+
+// Import layouts styles
+@import "layouts/header";
+@import "layouts/footer";
+
+// Import pages styles
+@import "pages/index";

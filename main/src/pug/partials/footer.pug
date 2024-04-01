@@ -1,0 +1,9 @@
+- var contacts = { phone:'+79990001234', text: 'Наши контакты' }
+
+footer.footer
+    div.footer__contacts
+        div.footer-contacts-block
+            span= contacts.text
+            span= contacts.phone
+        include ./social.pug
+

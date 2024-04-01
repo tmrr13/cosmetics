@@ -1,0 +1,41 @@
+@import "./_variables";
+@import "./_font-face";
+
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: $primaryFont;
+  font-size: $baseFont;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  align-items: center;
+  column-gap: map-get($indents, exmd);
+  display: flex;
+}
+
+.icon {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-menu-button {
+  align-items: center;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  width: 32px;
+}

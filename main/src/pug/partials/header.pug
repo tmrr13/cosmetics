@@ -1,0 +1,27 @@
+-
+    var links =
+    [
+      { text: 'Продукты', href: '/products.html' },
+      { text: 'FAQ', href: '/FAQ.html' },
+      { text: 'Результаты', href: '/results.html' },
+      { text: 'Доставка', href: '/delivery.html' },
+      { text: 'Сотрудничество', href: '/partnership.html' }
+    ];
+- var contacts = { phone:'+79990001234' }
+- var icons = [{ name: 'telegram', url: 'https://web.telegram.org'}, { name: 'instagram', url: 'https://www.instagram.com'}]
+
+header.header
+    div.logo.header__logo
+        a(href="/home.html" class='logo__img')
+            svg.icon
+                use(xlink:href='/assets/icons/logo.svg#logo')
+    div.header__navigation
+        nav.navigation-list
+          each link in links
+              a(class='navigation-list__item' href=link.href)= link.text
+    div.header__contacts
+        include ./social.pug
+        a.contacts__phone= contacts.phone
+    button.mobile-menu-button.header__mobile-menu-button
+
+

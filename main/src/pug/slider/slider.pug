@@ -1,0 +1,20 @@
+- var images = [{ name: 'slide-1.png' }, { name: 'slide-2.png' }, { name: 'slide-3.png' },{ name: 'slide-4.png' },{ name: 'slide-5.png' }];
+
+div.slider
+  each img, index in images
+      div(class=`slider__item slider__item--${index + 1}` alt=img.name)
+
+
+// -
+//     var images = [
+//         { text: 'Продукты', href: '/link1', src: '/assets/images/slide-1.png' },
+//         { text: 'FAQ', href: '/link2', src: '/assets/images/slide-2.png' },
+//         { text: 'Результаты', href: '/link3', src: '/assets/images/slide-3.png'},
+//         { text: 'Доставка', href: '/link3', src: '/assets/images/slide-4.png' },
+//         { text: 'Сотрудничество', href: '/link3', src: '/assets/images/slide-5.png' }
+//     ]
+//
+// div.slider
+//   each img, index in images
+//       img.slider__istem(class=`slider__istem-${index + 1}` src=img.src alt=img.text)
+//

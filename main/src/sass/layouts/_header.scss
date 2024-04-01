@@ -1,0 +1,127 @@
+
+.header {
+  align-items: center;
+  background-color: $chalk-white;
+  column-gap: map-get($indents, lg);
+  display: flex;
+  height: #{$header};
+  justify-content: space-between;
+  padding: 0 map-get($indents, lgmd);
+
+  @include desktop() {
+    padding: 0 map-get($indents, lgmd) * 2;
+  }
+
+  &__logo,
+  &__navigation,
+  &__contacts {
+    @include desktop() {
+      flex: 1;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__contacts {
+    @include font-size-default();
+
+    align-items: center;
+    column-gap: map-get($indents, exmd);
+    display: none;
+    justify-content: flex-end;
+
+    @include desktop() {
+      display: flex;
+    }
+  }
+
+  & &__mobile-menu-button {
+    background-image: url("../icons/mobile-menu-button.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    display: block;
+
+    @include desktop() {
+      display: none;
+    }
+
+    &.open-menu {
+      background-image: url("../icons/mobile-open-menu-button.svg");
+      height: 24px;
+      position: absolute;
+      right: 24px;
+      top: 44px;
+      width: 24px;
+      z-index: 20;
+    }
+  }
+
+  .social__telegram,
+  .social__instagram {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.logo {
+  &__img {
+    display: block;
+    height: 44px;
+  }
+}
+
+.navigation-list {
+  display: flex;
+  gap: map-get($indents, exmd);
+
+  @include desktop() {
+    display: flex;
+  }
+
+  @include mobile() {
+    align-items: center;
+    background: $chalk-white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding: map-get($indents, lgmd) * 2 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+
+  &.open-menu {
+    @include mobile() {
+      display: flex;
+    }
+  }
+
+  &__item {
+    @include font-size-default();
+    color: $ink-black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+    &:after {
+      background-color: $ink-black;
+      content: "";
+      display: none;
+      height: 1px;
+      width: 100%;
+    }
+
+    &:hover {
+      &:after {
+        display: block;
+      }
+    }
+  }
+}
+

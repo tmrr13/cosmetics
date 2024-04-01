@@ -1,0 +1,32 @@
+$images: 'slide-1.png', 'slide-2.png', 'slide-3.png',  'slide-4.png',  'slide-5.png';
+
+.slider {
+  @for $i from 1 through length($images) {
+    .slider__item--#{$i} {
+      background-image: url('../images/#{nth($images, $i)}');
+    }
+  }
+}
+
+.slider {
+  height: 100%;
+  //overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow-x: auto;
+
+  &__item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 1s;
+    width: 100%;
+  }
+}

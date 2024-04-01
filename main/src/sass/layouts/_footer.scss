@@ -1,0 +1,29 @@
+.footer {
+  background-color: $chalk-white;
+  box-sizing: border-box;
+  display: none;
+  height: $footer;
+  padding: map-get($indents, lg) map-get($indents, lgmd) 0;
+
+  @include mobile() {
+    display: flex;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: map-get($indents, sm);
+  }
+
+  .social__telegram,
+  .social__instagram {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+.footer-contacts-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: map-get($indents, exmd);
+}

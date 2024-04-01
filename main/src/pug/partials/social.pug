@@ -1,0 +1,20 @@
+-
+    var links =
+            [
+                { text: 'Продукты', href: '/products.html' },
+                { text: 'FAQ', href: '/FAQ.html' },
+                { text: 'Результаты', href: '/results.html' },
+                { text: 'Доставка', href: '/delivery.html' },
+                { text: 'Сотрудничество', href: '/partnership.html' }
+            ];
+- var contacts = { phone:'+79990001234' }
+- var icons = [{ name: 'telegram', url: 'https://web.telegram.org'}, { name: 'instagram', url: 'https://www.instagram.com'}]
+div.social
+    mixin icon(name, url)
+      a(href=url class='social__' + name)
+          svg(class='icon' id=name)
+              use(xlink:href='/assets/icons/' + name + '.svg#' + name)
+    each icon in icons
+        +icon(icon.name, icon.url)
+
+

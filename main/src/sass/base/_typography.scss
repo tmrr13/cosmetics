@@ -1,0 +1,33 @@
+$typesize-minor: 1rem; /* 20px */
+$typesize-milli: 0.75rem; /* 12px */
+$typesize-micro: 0.625rem; /* 10px */
+
+$typeweight--light: 300;
+$typeweight--medium: 400;
+$typeweight--default: 500;
+$typeweight--semi-bold: 600;
+$typeweight--bold: 700;
+
+/*  $Leading (line-height)
+    ================================================== */
+$leading--1: 1rem; /* 16px */
+$leading--1-25: 1.25rem; /* 20px */
+$leading--1-5: 1.5rem; /* 24px */
+
+@mixin font-size-default() {
+  font-size: $typesize-minor;
+  font-weight: $typeweight--light;
+  line-height: $leading--1-25;
+}
+//
+//.font-size-minor,
+//.font-size-minor * {
+//  font-size: $typesize-minor;
+//  line-height: $leading--1-25;
+//}
+//
+//.font-size-milli,
+//.font-size-milli * {
+//  font-size: $typesize-milli;
+//  line-height: $leading--1;
+//}
