@@ -19,7 +19,7 @@ header.header
               a(class='navigation-list__item' href=link.href)= link.text
     div.header__contacts
         include ./social.pug
-        a.contacts__phone= contacts.phone
+        a(href="tel:8 999 000 12 34" class='header__contacts-phone')= contacts.phone
     button.mobile-menu-button.header__mobile-menu-button
 
 

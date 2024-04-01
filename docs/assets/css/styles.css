@@ -70,6 +70,12 @@
   font-weight: normal;
   src: local("HarmonyOS Sans Black Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Black_Italic.woff") format("woff");
 }
+/* 16px */
+/* 14px */
+/*  $Leading (line-height)
+    ================================================== */
+/* 16px */
+/* 20px */
 @font-face {
   font-family: "HarmonyOS Sans Regular";
   font-style: normal;
@@ -195,12 +201,10 @@ button {
   width: 100%;
 }
 
-/* 16px */
-/* 14px */
-/*  $Leading (line-height)
-    ================================================== */
-/* 16px */
-/* 20px */
+a {
+  text-decoration: none;
+}
+
 .slider .slider__item--1 {
   background-image: url("../images/slide-1.png");
 }
@@ -276,10 +280,13 @@ button {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.header__contacts {
+.header__contacts, .header__contacts-phone {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.25rem;
+  color: #000;
+}
+.header__contacts {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -403,7 +410,6 @@ button {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  text-decoration: none;
 }
 .navigation-list__item:after {
   background-color: #000;
@@ -465,7 +471,7 @@ button {
   width: 28px;
 }
 
-.footer-contacts-block {
+.footer-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,11 +481,11 @@ button {
   flex-direction: column;
   row-gap: 20px;
 }
-.footer-contacts-block__text {
-  color: #000;
+.footer-contacts__text, .footer-contacts__phone {
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1rem;
+  color: #000;
 }
 
 .main {

@@ -24,9 +24,13 @@
     justify-content: center;
   }
 
-  &__contacts {
+  &__contacts,
+  &__contacts-phone {
     @include font-size-default();
+    color: $ink-black;
+  }
 
+  &__contacts {
     align-items: center;
     column-gap: map-get($indents, exmd);
     display: none;
@@ -58,6 +62,7 @@
       z-index: 20;
     }
   }
+
   .social {
     column-gap: map-get($indents, exmd);
 
@@ -116,7 +121,6 @@
     color: $ink-black;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
 
     &:after {
       background-color: $ink-black;

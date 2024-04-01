@@ -2,10 +2,10 @@
 @import "base/font-face";
 
 // Import base styles
+@import "base/typography";
 @import "base/variables";
 @import "base/mixins";
 @import "base/global";
-@import "base/typography";
 
 // Import components styles
 @import "components/slider";

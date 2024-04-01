@@ -26,13 +26,14 @@
   }
 }
 
-.footer-contacts-block {
+.footer-contacts {
   display: flex;
   flex-direction: column;
   row-gap: map-get($indents, lg);
 
-  &__text {
-    color: $ink-black;
+  &__text,
+  &__phone {
     @include font-size-minor();
+    color: $ink-black;
   }
 }

@@ -2,8 +2,8 @@
 
 footer.footer
     div.footer__contacts
-        div.footer-contacts-block
-            span.footer-contacts-block__text= contacts.text
-            span.footer-contacts-block__text= contacts.phone
+        div.footer-contacts
+            span.footer-contacts__text= contacts.text
+            a(href="tel:8 999 000 12 34" class='footer-contacts__phone')= contacts.phone
         include ./social.pug
 
