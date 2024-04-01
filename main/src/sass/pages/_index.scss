@@ -1,8 +1,8 @@
 
 .main {
-  height: calc(100vh - #{$header});
+  flex: 1;
 
-  @include mobile() {
-    height: calc(100vh - (#{$header} + #{$footer}));
-  }
+  //@include mobile() {
+  //  height: calc(100vh - (#{$header} + #{$footer}));
+  //}
 }
