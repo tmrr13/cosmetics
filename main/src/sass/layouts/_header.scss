@@ -2,6 +2,7 @@
   align-items: center;
   background-color: $chalk-white;
   column-gap: map-get($indents, lg);
+  flex-shrink: 0;
   display: flex;
   height: #{$header};
   justify-content: space-between;

@@ -251,6 +251,8 @@ a {
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,6 +443,8 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: none;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   height: 146px;
   padding: 20px 24px 0;
 }
@@ -492,4 +496,5 @@ a {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  min-height: 300px;
 }

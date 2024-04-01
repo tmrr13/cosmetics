@@ -1,8 +1,5 @@
 
 .main {
   flex: 1;
-
-  //@include mobile() {
-  //  height: calc(100vh - (#{$header} + #{$footer}));
-  //}
+  min-height: 300px;
 }
