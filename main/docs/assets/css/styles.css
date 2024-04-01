@@ -161,16 +161,6 @@ body {
   padding: 0;
 }
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
 button {
   background: transparent;
   border: none;
@@ -206,19 +196,36 @@ a {
 }
 
 .slider .slider__item--1 {
-  background-image: url("../images/slide-1.png");
+  background-image: url("../images/slide-mobile-1.png");
 }
 .slider .slider__item--2 {
-  background-image: url("../images/slide-2.png");
+  background-image: url("../images/slide-mobile-2.png");
 }
 .slider .slider__item--3 {
-  background-image: url("../images/slide-3.png");
+  background-image: url("../images/slide-mobile-3.png");
 }
 .slider .slider__item--4 {
-  background-image: url("../images/slide-4.png");
+  background-image: url("../images/slide-mobile-4.png");
 }
 .slider .slider__item--5 {
-  background-image: url("../images/slide-5.png");
+  background-image: url("../images/slide-mobile-5.png");
+}
+@media (min-width: 769px) {
+  .slider .slider__item--1 {
+    background-image: url("../images/slide-1.png");
+  }
+  .slider .slider__item--2 {
+    background-image: url("../images/slide-2.png");
+  }
+  .slider .slider__item--3 {
+    background-image: url("../images/slide-3.png");
+  }
+  .slider .slider__item--4 {
+    background-image: url("../images/slide-4.png");
+  }
+  .slider .slider__item--5 {
+    background-image: url("../images/slide-5.png");
+  }
 }
 
 .slider {
@@ -442,18 +449,13 @@ a {
   background-color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   height: 146px;
   padding: 20px 24px 0;
-}
-@media (max-width: 768px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 .footer__contacts {
   display: -webkit-box;
@@ -493,8 +495,6 @@ a {
 }
 
 .main {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  height: calc(100vh - 108px);
   min-height: 300px;
 }

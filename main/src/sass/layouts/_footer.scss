@@ -1,14 +1,10 @@
 .footer {
   background-color: $chalk-white;
   box-sizing: border-box;
-  display: none;
+  display: flex;
   flex-shrink: 0;
   height: $footer;
   padding: map-get($indents, lg) map-get($indents, lgmd) 0;
-
-  @include mobile() {
-    display: flex;
-  }
 
   &__contacts {
     display: flex;

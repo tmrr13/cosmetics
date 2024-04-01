@@ -1,9 +1,17 @@
 $images: 'slide-1.png', 'slide-2.png', 'slide-3.png',  'slide-4.png',  'slide-5.png';
+$images-mobile: 'slide-mobile-1.png', 'slide-mobile-2.png', 'slide-mobile-3.png',  'slide-mobile-4.png',  'slide-mobile-5.png';
 
 .slider {
-  @for $i from 1 through length($images) {
+  @for $i from 1 through length($images-mobile) {
     .slider__item--#{$i} {
-      background-image: url('../images/#{nth($images, $i)}');
+      background-image: url('../images/#{nth($images-mobile, $i)}');
+    }
+  }
+  @include desktop() {
+    @for $i from 1 through length($images) {
+      .slider__item--#{$i} {
+        background-image: url('../images/#{nth($images, $i)}');
+      }
     }
   }
 }
