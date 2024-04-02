@@ -214,35 +214,35 @@ a {
 }
 
 .slider .slider__item--1 {
-  background-image: url("../images/slide-mobile-1.png");
+  background-image: url("../images/slide-mobile-1.jpg");
 }
 .slider .slider__item--2 {
-  background-image: url("../images/slide-mobile-2.png");
+  background-image: url("../images/slide-mobile-2.jpg");
 }
 .slider .slider__item--3 {
-  background-image: url("../images/slide-mobile-3.png");
+  background-image: url("../images/slide-mobile-3.jpg");
 }
 .slider .slider__item--4 {
-  background-image: url("../images/slide-mobile-4.png");
+  background-image: url("../images/slide-mobile-4.jpg");
 }
 .slider .slider__item--5 {
-  background-image: url("../images/slide-mobile-5.png");
+  background-image: url("../images/slide-mobile-5.jpg");
 }
 @media (min-width: 769px) {
   .slider .slider__item--1 {
-    background-image: url("../images/slide-1.png");
+    background-image: url("../images/slide-1.jpg");
   }
   .slider .slider__item--2 {
-    background-image: url("../images/slide-2.png");
+    background-image: url("../images/slide-2.jpg");
   }
   .slider .slider__item--3 {
-    background-image: url("../images/slide-3.png");
+    background-image: url("../images/slide-3.jpg");
   }
   .slider .slider__item--4 {
-    background-image: url("../images/slide-4.png");
+    background-image: url("../images/slide-4.jpg");
   }
   .slider .slider__item--5 {
-    background-image: url("../images/slide-5.png");
+    background-image: url("../images/slide-5.jpg");
   }
 }
 

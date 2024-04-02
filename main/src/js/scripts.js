@@ -14,7 +14,7 @@ function initializeSlider() {
       sliderElements[currentSlide].style.opacity = '1';
     }
     sliderElements[currentSlide].style.opacity = '1';
-    setInterval(showSlide, 2000);
+    setInterval(showSlide, 2500);
   }
 }
 

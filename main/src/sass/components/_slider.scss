@@ -1,5 +1,5 @@
-$images: 'slide-1.png', 'slide-2.png', 'slide-3.png',  'slide-4.png',  'slide-5.png';
-$images-mobile: 'slide-mobile-1.png', 'slide-mobile-2.png', 'slide-mobile-3.png',  'slide-mobile-4.png',  'slide-mobile-5.png';
+$images: 'slide-1.jpg', 'slide-2.jpg', 'slide-3.jpg',  'slide-4.jpg',  'slide-5.jpg';
+$images-mobile: 'slide-mobile-1.jpg', 'slide-mobile-2.jpg', 'slide-mobile-3.jpg',  'slide-mobile-4.jpg',  'slide-mobile-5.jpg';
 
 .slider {
   @for $i from 1 through length($images-mobile) {
