@@ -7,6 +7,7 @@
   padding: map-get($indents, lg) map-get($indents, lgmd) 0;
 
   @include desktop() {
+    display: none;
     padding: map-get($indents, lg) map-get($indents, lgmd) * 2 0;
   }
 

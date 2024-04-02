@@ -1,74 +1,9 @@
 @font-face {
-  font-family: "HarmonyOS Sans Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Regular"), url("../fonts/harmony-sans/HarmonyOS_Sans_Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Regular_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Thin";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Thin"), url("../fonts/harmony-sans/HarmonyOS_Sans_Thin.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Thin Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Thin Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Thin_Italic.woff") format("woff");
-}
-@font-face {
   font-family: "HarmonyOS Sans Light";
   font-style: normal;
   font-weight: normal;
-  src: local("HarmonyOS Sans Light"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Light Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Light Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Medium"), url("../fonts/harmony-sans/HarmonyOS_Sans_Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Medium Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Medium Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Medium_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Bold"), url("../fonts/harmony-sans/HarmonyOS_Sans_Bold.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Bold Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Bold_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Black";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Black"), url("../fonts/harmony-sans/HarmonyOS_Sans_Black.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Black Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Black Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Black_Italic.woff") format("woff");
+  src: local("HarmonyOS Sans Light"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light.ttf") format("truetype");
+  font-display: swap;
 }
 /* 16px */
 /* 14px */
@@ -77,76 +12,11 @@
 /* 16px */
 /* 20px */
 @font-face {
-  font-family: "HarmonyOS Sans Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Regular"), url("../fonts/harmony-sans/HarmonyOS_Sans_Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Regular_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Thin";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Thin"), url("../fonts/harmony-sans/HarmonyOS_Sans_Thin.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Thin Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Thin Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Thin_Italic.woff") format("woff");
-}
-@font-face {
   font-family: "HarmonyOS Sans Light";
   font-style: normal;
   font-weight: normal;
-  src: local("HarmonyOS Sans Light"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Light Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Light Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Medium"), url("../fonts/harmony-sans/HarmonyOS_Sans_Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Medium Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Medium Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Medium_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Bold"), url("../fonts/harmony-sans/HarmonyOS_Sans_Bold.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Bold Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Bold_Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Black";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Black"), url("../fonts/harmony-sans/HarmonyOS_Sans_Black.woff") format("woff");
-}
-@font-face {
-  font-family: "HarmonyOS Sans Black Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("HarmonyOS Sans Black Italic"), url("../fonts/harmony-sans/HarmonyOS_Sans_Black_Italic.woff") format("woff");
+  src: local("HarmonyOS Sans Light"), url("../fonts/harmony-sans/HarmonyOS_Sans_Light.ttf") format("truetype");
+  font-display: swap;
 }
 html,
 body {
@@ -154,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: HarmonyOS Sans Regular, sans-serif;
+  font-family: HarmonyOS Sans Light, sans-serif;
   font-size: 16px;
   height: 100%;
   margin: 0;
@@ -350,7 +220,7 @@ a {
   height: 24px;
   position: absolute;
   right: 24px;
-  top: 44px;
+  top: 24px;
   width: 24px;
   z-index: 20;
 }
@@ -477,6 +347,7 @@ a {
 }
 @media (min-width: 769px) {
   .footer {
+    display: none;
     padding: 20px 48px 0;
   }
 }
